@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2? family= IBM+Plex+Serif:wght@400;500 & family= Montserrat:wght@100 & family= Sniglet & display=swap' );
+
+/* o * seleciona todas as tags */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* TUDO DENTRO DO HTML */
+html {
+    scroll-behavior: smooth;
+}
+
+/* estilo inicial DENTRO DO BODY */
+body {
+    font-size: 100%;
+    background-image: linear-gradient(to right bottom, #fcdd65, #ffb300, #fed257, #ffcc4d, #ffea98);
+    
+}
+
+/* POSIÇÃO DO CABEÇALHO*/
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #000000;
+    width: 100%;
+    box-shadow: 3px 3px 3px #ffffff;
+}
+
+/* ajuste da imagem */
+.cabecalho-img {
+    height: 72px;
+}
+
+/* distancia dos elementos do menu */
+.cabecalho-menu {
+    display: flex;
+    gap: 40px;
+}
+
+/* estilo do menu */
+.menu-item {
+    font-family: 'Sniglet', cursive;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.menu-item:hover {
+    color: #fece08;
+    transition-duration: 0.4s;
+}
+
+/* conteudo da página */
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 2px solid #ffffff;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    background-color: #FBF8F1;
+    border: 3px solid #000000;
+    border-radius: 20px;
+    box-shadow: 10px 10px 9px #00000040;
+    width: 550px;
+    padding: 20px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 65px;
+    color: #000000;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Sniglet', cursive;
+    font-size: 22px;
+}
+
+/* Botão */
+.conteudo-principal-escrito-botao {
+    background-color: #000000;
+    color: #FFCE0A;
+    resize: none;
+    width: 280px;
+    height: 60px;
+    border: none;
+    margin: 0;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.conteudo-principal-escrito-botao:hover {
+    background-color: #FFCE0A;
+    color: #000000;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+
+/* Tamanho da imagem */
+.conteudo-principal-img {
+    height: 430px;
+    margin: 80px;
+}
+
+/* Conteúdo secundário */
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin-top: 10px;
+}
+
+.contato {
+   margin-bottom: 100px;
+   gap: 40px;
+}
+
+/* Título secundário */
+.conteudo-secundario-titulo {
+    border-top: 2px solid #ffffff;
+    padding-top: 48px;
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+/* Parágrafos secundários */
+.conteudo-secundario-paragrafo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    background-color: #FBF8F1;
+    border: 3px solid #000000;
+    border-radius: 20px;
+    box-shadow: 10px 10px 9px #00000040;
+    width: 700px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Footer / RODAPÉ */
+.rodape {
+    padding: 25px;
+    border-top: 2px solid #ffffff;
+    background-color: #000000;
+    line-height: 30px;
+}
+
+.rodape-img {
+    height: 60px;
+    display: block;
+    margin: 0 auto;
+}
+
+.rodape-paragrafo {
+    color: #ffffff;
+    text-align: center;
+    font-size: 13px;
+}

@@ -1,0 +1,137 @@
+/* CONTEÚDO FORMAS DE CONTATO  */
+/* CONTAINER CONTATO */
+.content-dois {
+    margin-bottom: 48px;
+}
+
+.content-contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+/* TEXTO CONTATO */
+.content-contact-written {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #FBF8F1;
+    border: 3px solid #000000;
+    border-radius: 20px;
+    box-shadow: 10px 10px 9px #00000040;
+    width: 550px;
+    padding: 20px;
+    text-align: center;
+}
+
+.content-contact-written-title {
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 45px;
+    color: #000000;
+}
+
+.content-contact-written-caption {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 30px;
+}
+/* IMAGEM */
+.content-contact-img {
+    height: 430px;
+    margin-top: 50px;
+}
+
+.content-second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+/* ESPAÇAMENTO DE INFORMAÇÕES */
+.contact {
+    padding-bottom: 35px;
+    gap: 40px;
+}
+/* TÍTULO DO NOVO CONTEÚDO */
+.content-second-title {
+    border-top: 2px solid #ffffff;
+    padding-top: 48px;
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 60px;
+    color: #000000;
+}
+/* CONTAINER DO BLOCO DE CADA LOJA */
+.cards_2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+    width: auto;
+    color: #000000;
+    border-radius: 30px;
+    padding-bottom: 80px;
+    
+}
+/* INFORMAÇÕES DENTRO DO BLOCO */
+.card_2 {
+    width: 450px;
+    border-radius: 30px;
+    display: grid;
+    place-content: center;
+}
+
+.card_2_descripition {
+    padding: 20px;
+    height: 100px;
+}
+
+.card_2_content {
+    background-color: #FBFEED;
+    width: auto;
+    border-radius: 10px;
+    border-top: 20;
+    border: 3px solid #000000;;
+}
+
+.card_2_title {
+    font-size: 23px;
+    text-align: center;
+    font-family: 'Sniglet', cursive;
+    margin-top: 20px;
+}
+
+.card_2_descripition button {
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+    margin: auto;
+    place-content: center;
+    padding: 15px;
+    gap: 15px;
+}
+
+/* BOTÕES LEVANDO AO LINKTREE */
+.card_2_button {
+    padding: 15px;
+    margin: 20px;
+    margin-top: 30px;
+    width: 250px;
+    background-color: #000000;
+    color: #FFCE0A;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.card_2_button:hover {
+    background-color: #000000;
+    color: #FBF8F1;
+    font-size: 25px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+
