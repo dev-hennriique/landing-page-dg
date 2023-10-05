@@ -116,6 +116,15 @@
         margin: 30px auto;
         padding: 10px;
     }
+
+    .conteudo-principal-escrito-botao  span {
+        font-size: 25px;
+    }
+
+    .conteudo-principal-escrito-botao i {
+        font-size: 25px;
+        padding: 5px;
+    }
     
     .conteudo-principal-img {
         height: 300px;
