@@ -208,6 +208,14 @@
         align-items: center;
     }
 
+    .botao-2 span {
+      font-size: 15px;
+    }
+
+    .img-btn {
+        margin-left: -8px;
+    }
+
     .card_2_title {
         font-size: 90%;
     }
